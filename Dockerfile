@@ -1,5 +1,5 @@
-# Use official OpenJDK 17 image
-FROM openjdk:17-jdk-slim
+# Use official OpenJDK 17 image (Ubuntu 22.04 based)
+FROM openjdk:17-jdk-jammy
 
 # Set working directory
 WORKDIR /app
